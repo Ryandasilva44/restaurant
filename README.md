@@ -72,3 +72,5 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 # Pra instalar a biblioteca do Js para fazer animação no scroll:
 npm install aos
+
+
