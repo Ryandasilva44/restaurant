@@ -1,0 +1,17 @@
+$primary-color: rgb(21, 21, 104);
+$secundary-color: rgb(245, 169, 27);
+$color-color: #000;
+$color-nav: #fff;
+
+body {
+  background-color: $color-color;
+  
+}
+
+.navbar-button {
+  transition: color 0.5s ease, color 0.5s ease;
+
+  &:hover {
+    color: $secundary-color;
+  }
+}

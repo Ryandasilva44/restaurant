@@ -1,0 +1,19 @@
+$color-button: rgb(0, 128, 0);
+$color-button-hover: rgb(102, 192, 102);
+
+.button {
+  border: none;
+  width: 10em;
+  height: 3em;
+  border-radius: 3em;
+  background: $color-button;
+  margin-top: 0.5em;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1em;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background: $color-button-hover;
+  }
+}
