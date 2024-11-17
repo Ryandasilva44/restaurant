@@ -107,9 +107,11 @@ function AboutSection05() {
             >
               <p>CHART TO US</p>
               <p>Ours friendly team is here to help</p>
-              <Box sx={{
-                fontSize: {xs: ".8em", sm: "1.125rem"}
-              }}>
+              <Box
+                sx={{
+                  fontSize: { xs: ".8em", sm: "1.125rem" },
+                }}
+              >
                 <a href="mailto:ryandeveloper@hotmail.com">
                   ryandeveloper@hotmail.com
                 </a>
