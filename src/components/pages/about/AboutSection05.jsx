@@ -11,7 +11,7 @@ function AboutSection05() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        marginBottom: "1.5em"
+        marginBottom: "1.5em",
       }}
     >
       <Box
@@ -95,6 +95,7 @@ function AboutSection05() {
                 style={{ width: "2em" }}
               />
             </Box>
+            {/* icone de email */}
             <Box
               sx={{
                 marginTop: "1em",
@@ -106,9 +107,13 @@ function AboutSection05() {
             >
               <p>CHART TO US</p>
               <p>Ours friendly team is here to help</p>
-              <a href="mailto:ryandeveloper@hotmail.com">
-                ryandeveloper@hotmail.com
-              </a>
+              <Box sx={{
+                fontSize: {xs: ".8em", sm: "1.125rem"}
+              }}>
+                <a href="mailto:ryandeveloper@hotmail.com">
+                  ryandeveloper@hotmail.com
+                </a>
+              </Box>
             </Box>
           </Box>
           {/* icone de pesquisa */}
