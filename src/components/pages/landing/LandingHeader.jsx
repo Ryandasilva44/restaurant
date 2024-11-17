@@ -1,18 +1,9 @@
 import { Container, Box, Typography } from "@mui/material";
 import CircleText from "../../circle/CircleText";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function LandingHeader() {
-  useEffect(() => {
-    AOS.init({
-      duration: 3000,
-      easing: "ease-in-out",
-      once: false,
-      mirror: true,
-    });
-  }, []);
+
 
   const imgUrl = "/assets/imag-landingheader01.jpeg";
   return (

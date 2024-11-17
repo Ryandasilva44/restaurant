@@ -1,17 +1,8 @@
 import { Box, Container } from "@mui/material";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function AboutHeader() {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      easing: "ease-in",
-      once: false,
-      mirror: true,
-    });
-  }, []);
+
 
   const imgUrl = "/assets/img01about.jpg";
   return (

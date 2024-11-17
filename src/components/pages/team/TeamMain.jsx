@@ -1,17 +1,8 @@
 import { Container, Box, Typography } from "@mui/material";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function TeamMain() {
-  useEffect(() => {
-    AOS.init({
-      duration: 3000,
-      easing: "ease-in-out",
-      once: false,
-      mirror: true,
-    });
-  }, []);
+ 
 
   const imgUrl = "/assets/img01team.jpg";
   return (

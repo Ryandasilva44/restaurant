@@ -92,7 +92,7 @@ function App() {
             }
           />
           <Route
-            path="/about"
+            path="/about-header"
             element={
               <>
                 <AboutHeader />
@@ -106,7 +106,7 @@ function App() {
           />
 
           <Route
-            path="/team"
+            path="/team-main"
             element={
               <>
                 <TeamMain />
@@ -118,7 +118,7 @@ function App() {
           />
 
           <Route
-            path="/menu"
+            path="/menu-main"
             element={
               <>
                 <MenuMain />
@@ -133,7 +133,7 @@ function App() {
           />
 
           <Route
-            path="/contact"
+            path="/contact-main"
             element={
               <>
                 <ContactMain />

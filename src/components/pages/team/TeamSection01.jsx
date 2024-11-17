@@ -1,18 +1,9 @@
 import { Container, Box } from "@mui/material";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function TeamSection01() {
-  useEffect(() => {
-    AOS.init({
-      duration: 3000,
-      easing: "ease-in-out",
-      once: false,
-      mirror: true,
-    });
-  }, []);
+
 
   const imgUrl = "/assets/img01teamsection01.jpg";
   const imgUrl01 = "/assets/img02teamsection01.jpg";

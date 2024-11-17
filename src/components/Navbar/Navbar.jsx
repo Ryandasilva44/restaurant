@@ -35,18 +35,18 @@ function Navbar() {
           </Link>
 
           {/* navegando para a pagina landing */}
-          <Link
+           <Link
             to="/landing-header"
             style={{ textDecoration: "none", color: "inherit" }}
-          >
+          > 
             <Button className="navbar-button" color="inherit">
               Landing
             </Button>
-          </Link>
+           </Link> 
 
           {/* navegando para a página about */}
           <Link
-            to="/about"
+            to="/about-header"
             style={{
               textDecoration: "none",
               color: "inherit",
@@ -59,7 +59,7 @@ function Navbar() {
 
           {/* navegação para a página team */}
           <Link
-            to="/team"
+            to="/team-main"
             style={{
               textDecoration: "none",
               color: "inherit",
@@ -73,7 +73,7 @@ function Navbar() {
           {/* navegação para a página de menu */}
 
           <Link
-            to="/menu"
+            to="/menu-main"
             style={{
               textDecoration: "none",
               color: "inherit",
@@ -87,7 +87,7 @@ function Navbar() {
           {/* navegção para a página de contact */}
 
           <Link
-            to="/contact"
+            to="/contact-main"
             style={{
               textDecoration: "none",
               color: "inherit",
@@ -129,18 +129,47 @@ function Navbar() {
                 <Button color="inherit">Landing</Button>
               </Link>
             </ListItem>
+
             <ListItem button onClick={handleMenuToggle}>
-              <Button color="inherit">About</Button>
+              <Link to="/about-header" style={{
+                textDecoration: "none",
+                color: "inherit"
+              }}>
+                 <Button color="inherit">About</Button>
+              </Link>
+           
             </ListItem>
+
             <ListItem button onClick={handleMenuToggle}>
-              <Button color="inherit">Team</Button>
+              <Link to="/team-main" style={{
+                textDecoration: "none",
+                color: "inherit"
+              }}>
+               <Button color="inherit">Team</Button>
+              </Link>
+             
             </ListItem>
+
             <ListItem button onClick={handleMenuToggle}>
-              <Button color="inherit">Menu</Button>
+              <Link to="/menu-main" style={{
+                textDecoration: "none",
+                color: "inherit"
+              }}>
+                <Button color="inherit">Menu</Button>
+              </Link>
+            
             </ListItem>
+
             <ListItem button onClick={handleMenuToggle}>
-              <Button color="inherit">Contact</Button>
+              <Link to="/contact-main" style={{
+                textDecoration: "none",
+                color: "inherit"
+              }}>
+               <Button color="inherit">Contact</Button>
+              </Link>
+             
             </ListItem>
+
           </List>
         </Box>
       </Drawer>

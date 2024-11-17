@@ -1,17 +1,8 @@
 import { Box, Container } from "@mui/material";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function LandingSection03() {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      easing: "ease-in-out",
-      once: false,
-      mirror: true,
-    });
-  }, []);
+
 
   const imgUrl = "/assets/img04landingsection03.jpg";
   const imgUrl01 = "assets/img05landingsection03.jpg";

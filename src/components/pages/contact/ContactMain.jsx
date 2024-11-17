@@ -1,26 +1,14 @@
 import { Container, Box, Typography } from "@mui/material";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function ContactMain() {
-  useEffect(() => {
-    AOS.init({
-      duration: 3000,
-      easing: "ease-in-out",
-      once: false,
-      mirror: true,
-    });
-  }, []);
-
   return (
     <Container
       sx={{
         marginTop: "5em",
       }}
     >
-      <Box 
-      data-aos="fade-left"
+      <Box
+        data-aos="fade-left"
         sx={{
           background: "#fff",
           borderRadius: "2.5em",

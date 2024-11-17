@@ -1,17 +1,8 @@
 import { Container, Box, Typography } from "@mui/material";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function AboutSection02() {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      easing: "ease-in-out",
-      once: false,
-      mirror: true,
-    });
-  }, []);
+  
 
   const imgUrl = "/assets/img02aboutsection02.jpg";
   return (
